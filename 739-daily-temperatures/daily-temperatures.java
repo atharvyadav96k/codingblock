@@ -1,6 +1,5 @@
 class Solution {
-    public int[] dailyTemperatures(int[] temperatures) {
-        int arr[] = temperatures;
+    public int[] dailyTemperatures(int[] arr) {
         int ans[] = new int[arr.length];
         Stack<Integer> s = new Stack<>();
         for(int i=0;i<arr.length;i++){
